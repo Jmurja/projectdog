@@ -5,6 +5,10 @@ body{
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 main{
     width: 100vw;
     height: 100%;
@@ -16,6 +20,7 @@ main{
 }
 
 .esquerda-home{
+    margin-top: 80px;
     display: flex;
     width: 50vw;
     flex-direction: column;
@@ -39,6 +44,7 @@ main{
     display: flex;
     width: 50vw;
     justify-content: center;
+    margin-top: 80px;
 }
 
 ul{
@@ -57,10 +63,11 @@ li{
 #navbar{
     background-color: white;
     width: 100%;
+    position: fixed;
 }
 
 #logo{
-    width: 100px;
+    width: 80px;
 }
 
 span{
@@ -94,6 +101,7 @@ footer span{
 }
 
 .container-sobre{
+    margin-top: 80px;
     display: flex;
     width: 100vw;
     height: 100vh;
@@ -137,4 +145,3 @@ footer span{
 img{
     box-sizing:border-box;
 }
-
