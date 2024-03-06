@@ -4,41 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+
     <title>Document</title>
 </head>
-<body class="hide-scrollbar">>
+<body>
+<div class="container">
+
+  <!---NAVBAR-->
 
   <nav id="navbar">
+
        <ul>
          <img src="img/logo600.png" alt="logo marca" id="logo">
-         <li id="home">Home</li>
+         <li><a href="#navbar">Home</a></li>
          <li><a href="#sobre">Sobre</a></li>
-         <li id="servico">Serviços</li>
-         <li id="contato">Contato</li>
+         <li><a href="#servicos">Serviços</a></li>
+         <li><a href="#contato">Contato</a></li>
         </ul>
      </nav>
+
+     <!---CONTAINER DE HOME-->
+
      <main>
-        <div class="esquerda">
-            <h1>O Seu Cachorrinho, merece o <span>Melhor</span> <br> Banho possível!!</h1>
+
+        <div class="esquerda-home">
+            <h1>O Seu Cachorrinho, merece o <span>Melhor</span> <br> carinho possível!!</h1>
                 <p>Somos a empresa líder em serviços de banho e tosa na região, dedicando-nos exclusivamente ao bem-estar dos seus pets. Nossa especialização não se limita apenas a cães; também oferecemos cuidados excepcionais para animais exóticos, incluindo Tiranossauros Rex, Porcos-Espinhos e Tigres Dente de Sabre. Nossa missão é garantir que seu amado animal de estimação receba o melhor tratamento possível, proporcionando-lhes uma experiência de banho e tosa segura, confortável e de alta qualidade.</p>
          </div>
 
-         <div class="direita">
-            <img src="img/dog1024.png" alt="cachorro" id="cachorro">
+         <div class="direita-home">
+            <img src="img/dog1024.png" alt="cachorro" id="cachorro" >
           </div>
     </main>
-      <div class="imagens" id="sobre">
-        <h1>Sobre</h1>
-        <img src="img/cachorro800.png" alt="">
-        <img src="img/porco800.png" alt="">
-        <img src="img/tigre800.png" alt="">
-        <img src="img/tigre800.png" alt="">
-      </div>
-    <script src="script.js"></script>
-    <h1>Contato</h1>
-    <p>blablabla</p>
 
-    <h1>Servicos</h1>
-    <p>blabalalb2</p>
+
+    <!---CONTAINER DA SOBRE-->
+
+    <div class="container-sobre">
+        <div class="esquerda-sobre">
+            <img src="img/cachorro800.png" alt="" srcset="">
+        </div>
+
+         <div class="direita-sobre" id="sobre">
+           <h2>Sobre Nós:</h2>
+             <p>Nós, começamos em Bebedouro, e expandimos nossa filial por todo o Brasil, durante 20anos de existencia desse fastshop.Nós, começamos em Bebedouro, e expandimos nossa filial por todo o Brasil, durante 20anos de existencia desse fastshop.Nós, começamos em Bebedouro, e expandimos nossa filial por todo o Brasil, durante 20anos de existencia desse fastshop.Nós, começamos em Bebedouro, e expandimos nossa filial por todo o Brasil, durante 20anos de existencia desse fastshop. </p>
+           </div>
+        </div>
+
+<!---CONTAINER DE SERVIÇOS-->
+
+
+<!---FOOTER-->
+
+
+  <footer>
+     <div class="footer" id="contato">
+       <ul><span>CONTATO:</span>
+        <li>Telefone:(99) 9999-999</li>
+        <li>Endereco: R. Taltaltal Av. Tal</li>
+        <li>Email: fastshop@cachorro.user.com.br</li>
+       </ul>
+     </div>
+ </footer>
+  </div>
 </body>
 </html>
